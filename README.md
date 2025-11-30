@@ -4,19 +4,19 @@
 
 ## Getting started
 
-Aspire: Startup project
-API: Web api
-CDN: Mimic of cnd for hosting images
-Scaling: Worker with several instances to scale images
-Clients: Test project to execute requests for api.
-	Current settings is 100 RPS
-FileStorage - Mimic of network file storage, like S3.
-Scale... events are used to coordinate background image compression.
+| Project | |
+|-|-|
+| Aspire| Startup project|
+|API| Web api|
+|CDN| Mimic of cnd for hosting images|
+|Scaling| Worker with several instances to scale images<br>(Events are used to coordinate background image compression)|
+|Clients| Test project to execute requests for api<br>(Current settings is 100 rps)|
+|Files| Mimic of network file storage, like S3|
 
 
-API can be configured for MongoDB or Sqlite (EF core) at the App.cs (use one option)
-    // .AddMongoDBRepositories(builder.Configuration.GetSection("MongoDB"))
-	// .AddSqliteRepositories(builder.Configuration.GetSection("Sqlite"))
+API can be configured for MongoDB or Sqlite (EF core) at the App.cs (use one option):<br>
+&emsp;// .AddMongoDBRepositories(builder.Configuration.GetSection("MongoDB"))<br>
+&emsp;// .AddSqliteRepositories(builder.Configuration.GetSection("Sqlite"))<br>
 
 ## Metrics
 
