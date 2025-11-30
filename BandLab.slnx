@@ -1,0 +1,32 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Aspire/Aspire.csproj" />
+  </Folder>
+  <Folder Name="/src/app/">
+    <Project Path="src/API/API.csproj" />
+    <Project Path="src/CDN/CDN.csproj" />
+    <Project Path="src/Scaling/Scaling.csproj" />
+  </Folder>
+  <Folder Name="/src/core/">
+    <Project Path="src/Entities/Entities.csproj" />
+    <Project Path="src/Repositories/Repositories.csproj" />
+  </Folder>
+  <Folder Name="/src/infrastucture/">
+    <Project Path="src/Files/Files.csproj" Id="54bf87fd-b9be-4ff3-ac1f-40fed99cec7b" />
+    <Project Path="src/Infrastructure/Infrastructure.csproj" />
+    <Project Path="src/Persistence.MongoDB/Persistence.MongoDB.csproj" Id="ce1b562c-3dbc-4d21-b30a-6985479f9e64" />
+    <Project Path="src/Persistence.Sqlite/Persistence.Sqlite.csproj" Id="e8536d2d-5751-4eff-8ced-dd752b27465c" />
+    <Project Path="src/Scaling.Queue/Scaling.Queue.csproj" Id="c7c7286c-4ef0-4e89-b198-2b985201c743" />
+  </Folder>
+  <Folder Name="/src/interfaces/">
+    <Project Path="src/Files.Interfaces/Files.Interfaces.csproj" Id="b6a64512-3217-4911-a7a0-06cd109582a3" />
+    <Project Path="src/Scaling.Interfaces/Scaling.Interfaces.csproj" Id="231b3369-f90e-4640-adb8-d65fa1329d13" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/API.Tests/API.Tests.csproj" Id="8e89b95d-f444-48fb-a52f-0f0b90d99d2a" />
+    <Project Path="tests/Clients/Clients.csproj" Id="0fba4392-a03b-4b3c-971b-990424042b61" />
+  </Folder>
+</Solution>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Sdk Name="Aspire.AppHost.Sdk" Version="13.0.1" />
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<AssemblyName>BandLab.Aspire</AssemblyName>
+		<RootNamespace>BandLab.Aspire</RootNamespace>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Aspire.Hosting.AppHost" Version="13.0.1" />
+		<PackageReference Include="Aspire.Hosting.MongoDB" Version="13.0.1" />
+		<PackageReference Include="Aspire.Hosting.RabbitMQ" Version="13.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\tests\Clients\Clients.csproj" />
+		<ProjectReference Include="..\API\API.csproj" />
+		<ProjectReference Include="..\CDN\CDN.csproj" />
+		<ProjectReference Include="..\Scaling\Scaling.csproj" />
+	</ItemGroup>
+
+</Project>

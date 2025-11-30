@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+**/.vs/
+**/packages/
+*.suo
+*.user
+*.tested
+.idea/
+src/CDN/wwwroot/*
+src/API/bandlab.db
